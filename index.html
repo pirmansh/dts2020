@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>COVID-19 | Project DTS2020</title>
+</head>
+<body>
+    <header>
+         <!-- Navbar-->
+         <nav class="navbar">
+            <span id="navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="#" id="logo">DTS-COVID19</a>
+            <ul id="main-nav">
+                <li>
+                    <a href="#data" class="nav-links">Data</a>
+                </li>
+                <li>
+                    <a href="#tentang" class="nav-links">Tentang</a>
+                </li>
+                <li>
+                    <a href="#profile" class="nav-links">Profile</a>
+                </li>
+            </ul>
+         </nav>
+         <div class="jumbotron">
+            <div class="banner-text">
+                <h3> <span>Update</span> <br> COVID-19</h3>
+            </div>
+             <div class="banner">
+                 <img src="./src/img/medical_research.svg" alt="medical">
+             </div>
+         </div>
+
+    </header>
+    <main>
+       <div class="container">
+           <article id="tentang" class="text">
+               <section class="box">
+                    <p class="header-text">Apa itu coronavirus?</p>
+                    <p>Coronavirus adalah suatu kelompok virus yang dapat menyebabkan penyakit pada hewan atau manusia. Beberapa jenis coronavirus diketahui menyebabkan infeksi saluran nafas pada manusia mulai dari batuk pilek hingga yang lebih serius seperti Middle East Respiratory Syndrome (MERS) dan Severe Acute Respiratory Syndrome (SARS). Coronavirus jenis baru yang ditemukan menyebabkan penyakit COVID-19.</p>
+               </section>
+               <section class="box">
+                   <p class="header-text">Apa itu COVID-19?</p>
+                   <p>COVID-19 adalah penyakit menular yang disebabkan oleh jenis coronavirus yang baru ditemukan. Ini merupakan virus baru dan penyakit yang sebelumnya tidak dikenal sebelum terjadi wabah di Wuhan, Tiongkok, bulan Desember 2019.</p>
+               </section>
+           </article>
+           <article>
+                <section class="box">
+                    <p class="header-text">Apa saja gejala COVID-19?</p>
+                    <p>Gejala-gejala COVID-19 yang paling umum adalah demam, rasa lelah, dan batuk kering. Beberapa pasien mungkin mengalami rasa nyeri dan sakit, hidung tersumbat, pilek, sakit tenggorokan atau diare, Gejala-gejala yang dialami biasanya bersifat ringan dan muncul secara bertahap. Beberapa orang yang terinfeksi tidak menunjukkan gejala apa pun dan tetap merasa sehat. Sebagian besar (sekitar 80%) orang yang terinfeksi berhasil pulih tanpa perlu perawatan khusus. Sekitar 1 dari 6 orang yang terjangkit COVID-19 menderita sakit parah dan kesulitan bernapas. Orang-orang lanjut usia (lansia) dan orang-orang dengan kondisi medis yang sudah ada sebelumnya seperti tekanan darah tinggi, gangguan jantung atau diabetes, punya kemungkinan lebih besar mengalami sakit lebih serius. Mereka yang mengalami demam, batuk dan kesulitan bernapas sebaiknya mencari pertolongan medis.</p><br>
+                    <a href="https://www.who.int/indonesia/news/novel-coronavirus/qa-for-public">https://www.who.int/</a>
+                </section>
+           </article>
+           <article id="data" class="data-covid">
+               <h3>Data terkini COVID-19 di Indonesia</h3>
+               <div class="form-data">
+                    <div class="data data-confirm">
+                        <div id="output"></div>
+                        <div class="data-content">
+                            <i class="fas fa-clipboard-list fa-2x"></i>
+                            <p>Total Konfirmasi</p>
+                        </div>
+                    </div>
+                    <div class="data data-activecare">
+                        <div id="activeCare"></div>
+                        <div class="data-content">
+                            <i class="fas fa-first-aid fa-2x"></i>
+                            <p>Dalam Perawatan</p>
+                        </div>
+                    </div>
+                    <div class="data data-recovered">
+                        <div id="recovered"></div>
+                        <div class="data-content">
+                            <i class="fas fa-smile-beam fa-2x"></i>
+                            <p>Sembuh</p>
+                        </div>
+                    </div>
+                    <div class="data data-deaths">
+                        <div id="deaths"></div>
+                        <div class="data-content">
+                            <i class="fas fa-frown fa-2x"></i>
+                            <p>Meninggal</p>
+                        </div>
+                    </div>
+               </div>
+           </article>
+           <!--  -->
+           <div class="tentang">
+            <h2>Tentang Website Ini</h2>
+           </div>
+           <div class="form-profile">
+               <div id="profile" class="profile">
+                    <div class="text-profile">
+                        <h3>Project Dibuat Oleh:</h3>
+                    </div>
+                    <div class="author">
+                        <div class="pirman">
+                            <div class="image">
+                                <img src="./src/img/author.svg" alt="">
+                            </div>
+                            <div class="bio">
+                                <p>Pirmansyah</p>
+                            </div>
+                        </div>
+                        <div class="rizki">
+                            <div class="image">
+                                <img src="./src/img/author.svg" alt="">
+                            </div>
+                            <div class="bio">
+                                <p>Rizki Wahyudi</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               <div class="dts-banner">
+                   <img src="./src/img/dts.svg" alt="">
+               </div>
+           </div>
+       </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            Project Pirmansyah & Rizki Wahyudi
+        </div>
+    </footer>
+    <script src="./src/js/app.js"></script>
+</body>
+</html>
