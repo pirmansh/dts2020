@@ -387,6 +387,9 @@ footer {
     .update{
         text-align: center;
     }
+    #main-nav {
+       justify-content: center;
+    }
     .jumbotron {
         margin-top: 50px;
         flex-direction: column;
@@ -444,8 +447,15 @@ footer {
         padding: 30px;
     }
     .profile {
-        padding: 0;
+        background: #fff;
     }
+    .author{
+        flex-direction: column;
+    }
+    .pirman,
+.rizki {
+    padding: 40px;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -469,7 +479,7 @@ footer {
     }
 
     .nav-links {
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     #logo {
