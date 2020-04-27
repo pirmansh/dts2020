@@ -33,6 +33,7 @@ function getApi(){
     xhr.send();
 }
 
+getApi();
 
 // const createClock = setInterval(getApi, 1000);
 
