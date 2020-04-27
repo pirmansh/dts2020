@@ -339,7 +339,8 @@ a{
     float: left;
     text-align: center;
     padding-top: 8px;
-    
+    position: sticky;
+    bottom: 0;
 }
 .fab{
     margin: 10px;

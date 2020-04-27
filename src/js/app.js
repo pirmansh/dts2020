@@ -1,11 +1,4 @@
 
-/**
-*
-* author: pirmansyah
-*
-*
-**/
-
 function getApi(){
     
     const xhr = new XMLHttpRequest();
@@ -41,7 +34,7 @@ function getApi(){
 }
 
 
-const createClock = setInterval(getApi, 1000);
+// const createClock = setInterval(getApi, 1000);
 
 let mainNav = document.getElementById('main-nav');
 let navbarToggle = document.getElementById('navbar-toggle');
