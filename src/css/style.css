@@ -26,7 +26,7 @@ body {
     font-size: 18px;
     background: #6c63ff;
     padding-bottom: 15px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     position: fixed;
     top: 0;
@@ -388,7 +388,7 @@ footer {
         text-align: center;
     }
     #main-nav {
-       justify-content: center;
+       justify-content: center !important;
     }
     .jumbotron {
         margin-top: 50px;
