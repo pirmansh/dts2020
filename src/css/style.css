@@ -101,15 +101,15 @@ body {
 }
 
 .zoom {
-    transition: transform 0.2s;
+    transition: transform 0.6s;
 }
 
 .zoom:hover {
-    -ms-transform: scale(1.5);
+    -ms-transform: scale(1.2);
     /* IE 9 */
-    -webkit-transform: scale(1.5);
+    -webkit-transform: scale(1.2);
     /* Safari 3-8 */
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .banner-text {
@@ -148,8 +148,8 @@ article.text {
 section {
     padding: 20px;
     margin: 10px;
-    border: 2px solid #6c63ff;
-    box-shadow: 10px 10px 5px rgb(97, 96, 96);
+    border: 1px solid rgb(243, 243, 243);
+    box-shadow: 10px 10px 5px rgba(97, 96, 96, 0.267);
 }
 
 .header-text {
@@ -255,12 +255,16 @@ section p {
 .btn:hover {
     opacity: 1;
 }
-
+a{
+    text-decoration: none;
+}
 .message {
     padding: 15px 40px;
     background-color: #6c63ff;
     cursor: pointer;
-    box-shadow: 0 7px #2c3e50;
+    border-radius: 20px;
+    /* box-shadow: 0 7px #2c3e50; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .message:active {
@@ -287,7 +291,10 @@ section p {
     display: flex;
     flex-direction: column;
     margin: 0 0 60px 0;
+    padding: 20px;
     justify-content: space-around;
+    background: #fafafa;
+    border-radius: 16px;
 }
 
 .author {
@@ -313,6 +320,7 @@ section p {
     border-radius: 8px;
     padding: 10px;
     color: #787d86;
+    background: #fff;
 }
 
 .bio {
@@ -323,35 +331,36 @@ section p {
 .text-profile {
     padding: 30px 0;
     color: #2c3e50;
+    text-align: center;
 }
 
 .icon {
     float: left;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 8px;
     
 }
 .fab{
     margin: 10px;
+    color: rgba(255, 255, 255, 0.7);
 }
 
-.fa-github{
+.fa-github:hover{
     color: #24292E;
 }   
-.fa-facebook{
-    color: #3b5999;
+.fa-facebook:hover{
+    color: #0d58fb;
 }
-.fa-whatsapp{
+.fa-whatsapp:hover{
     color: #25D366;
 }
 
-.fa-instagram{
+.fa-instagram:hover{
     color: #e4405f;
 }
-.fa-telegram{
-    color: #00AFF0;
+.fa-telegram:hover{
+    color: rgb(15, 191, 255);
 }
-
 /* ----------- Footer ------------- */
 
 footer {
@@ -360,6 +369,12 @@ footer {
     border: 1px solid rgb(243, 243, 243);
     background: #6c63ff;
     color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.copyright{
+    margin-top: 20px;
 }
 
 /* ------------- Media Query----------------- */
@@ -376,8 +391,7 @@ footer {
     }
 
     .banner-text {
-        margin: 20px auto;
-        padding: 10px;
+        display: none;
     }
 
     .banner-text h3 {
