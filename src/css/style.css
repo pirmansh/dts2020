@@ -50,11 +50,13 @@ body {
     color: rgba(255, 255, 255, 0.7);
     display: inline-block;
     transition: all 1.5s;
+    font-weight: bold;
 }
 
 #logo:hover,
 .nav-links:hover {
-    color: rgb(27, 26, 26);
+    color: #fff;
+
 }
 
 #logo {
